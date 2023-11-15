@@ -75,3 +75,13 @@ Findings from Model Training:
 3. Chi-Squared statistical tests and feature selection methodologies are very likely to be valuable in order to slim down the features in this model, and potentially increase predictive power, performance and "accuracy".
 
 4. Though the dataset was not unbalanced, it might be interesting to attempt oversampling techniques to bolster the dataset and see if a better predictive model could be generated.
+
+### Next Steps
+
+This exercise demonstrated to me the areas where I would like to gain more understanding and expertise in, including:
+1. Understand the best practise tests required to determine from a statistical significance perspective, whether Features are related to each other (more than correlation matrix)
+2. Understand how the above plays into Feature Selection methodologies
+3. Understand ways to train models to interpolate missing data when there is missing data
+4. Understand appropriate ways to replace Outliers, and ways to know from a statistical significance and propriety perspective, when replacing Outliers will negatively impact predictive value of the model.
+5. More research to better understand the n_jobs parameters for GridSearchCV and RandomizedSearchCV classes, to see how to set this on different types of computers and on my laptop specifically, to know how to maximize the use of my computing environment without risking program crash.
+6. Understand and employ tools like Optuna and Ray to better scale the computing environment to be able to safely add computing power for processor-intensive activities like GridSearch with large numbers of hyperparameter methods.
